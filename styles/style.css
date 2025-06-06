@@ -1,0 +1,157 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+body {
+  background: linear-gradient(115deg, rgb(60 60 160 / 0.8), rgb(140 140 210 / 0.6)),
+    url("../images/people-working-in-the-office.webp") center / cover no-repeat fixed;
+  color: #fff;
+  font: 400 1rem / 1.5 "Poppins", sans-serif;
+}
+
+header,
+footer {
+  padding: 0 0.4rem;
+  text-align: center;
+}
+
+main {
+  margin: 2rem 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+legend {
+  margin-bottom: 0.5rem;
+}
+
+span {
+  font-size: 0.95em;
+}
+
+.container {
+  margin: 2rem 0;
+}
+
+#title {
+  font-weight: inherit;
+}
+
+#description {
+  font-size: 1.1em;
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px #a9a9a9;
+}
+
+#survey-form {
+  background-color: rgb(30 30 50 / 0.85);
+  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 2.5rem 2.5rem 3.75rem;
+}
+
+.form-group {
+  border: none;
+}
+
+.form-group,
+.input-group {
+  margin-bottom: 2rem;
+}
+
+.input-group:last-of-type {
+  margin-bottom: 0;
+}
+
+.form-control {
+  border: 1.5px solid #fff;
+  border-radius: 5px;
+  color: #495057;
+  font-weight: inherit;
+  padding: 0.45rem 0.6rem;
+  width: 100%;
+}
+
+.input-group .form-control {
+  background-clip: padding-box;
+  transition: border-color 0.2s ease-in, box-shadow 0.2s ease-in;
+}
+
+.input-group .form-control:focus {
+  border-color: #0095ff;
+  box-shadow: 0 0 0 3.2px rgb(0 150 255 / 0.25);
+  outline: none;
+}
+
+.form-check {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem
+}
+
+.form-check label {
+  align-items: center;
+  column-gap: 0.5rem;
+  display: inherit;
+  flex-direction: row;
+  margin-bottom: 0;
+}
+
+.form-check input {
+  min-height: 20px;
+  min-width: 20px;
+}
+
+.form-group:last-of-type label {
+  margin-bottom: 0rem;
+}
+
+.form-group textarea {
+  border: none;
+  border-radius: 0;
+  min-height: 120px;
+  resize: vertical;
+}
+
+#submit {
+  background-color: #05a046;
+  border: none;
+  border-radius: 2.5px;
+  color: inherit;
+  font-weight: inherit;
+  padding: 0.85rem;
+  width: 100%;
+}
+
+#submit:hover {
+  cursor: pointer;
+}
