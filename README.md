@@ -1,4 +1,4 @@
-# freeCodeCamp Survey Form
+# Survey Form
 This is my **Survey Form**, created as part of the requirements for the **Responsive Web Design** certification from [freeCodeCamp](https://www.freecodecamp.org/).
 
 Check out my profile: [StuartMosquera on freeCodeCamp](https://www.freecodecamp.org/StuartMosquera).
